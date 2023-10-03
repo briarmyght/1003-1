@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.FruitDetailed">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="auto,auto,*" Padding="20">
+            <Image Grid.Row="0" x:Name="apple.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="orange.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="banana.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="kiwi.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="strawberry.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="Pineapple.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="Watermelon.png" HeightRequest="500"></Image>
+            <Image Grid.Row="0" x:Name="Grapes.png" HeightRequest="500"></Image>
+            
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>
